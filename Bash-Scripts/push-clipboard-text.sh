@@ -5,7 +5,8 @@
 
 # DEPENDENCIES:
 	# curl
-	# sudo apt-get install curl
+	# xsel
+	# sudo apt-get install curl xsel
 
 # BEFORE RUNNING, set the variable 'pbtoken' to your pushbullet access token
 	# You can create a pushbullet access token by accessing your pushbullet account settings
@@ -14,4 +15,4 @@
 pbtoken='o.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 curl -u $pbtoken: https://api.pushbullet.com/v2/pushes -d type=note -d body="$(xsel -ob)"
 
-echo --DONE
+echo --DONE--
