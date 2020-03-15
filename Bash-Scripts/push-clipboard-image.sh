@@ -5,10 +5,9 @@
 
 # DEPENDENCIES:
 	# curl
-	# xsel
 	# xclip
 	# jq
-	# sudo apt-get install curl xsel xclip jq
+	# sudo apt-get install curl xclip jq
 
 # BEFORE RUNNING, set the variable 'pbtoken' to your pushbullet access token
 	# You can create a pushbullet access token by accessing your pushbullet account settings
